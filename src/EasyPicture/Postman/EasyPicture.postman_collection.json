@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "239da264-ea88-4ce0-b1cf-062013ace2cd",
+		"name": "EasyPicture",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10859496"
+	},
+	"item": [
+		{
+			"name": "api.rule34.xxx",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.rule34.xxx/index.php?page=dapi&s=post&q=index&tags=nakano_nino&pid=0",
+					"protocol": "https",
+					"host": [
+						"api",
+						"rule34",
+						"xxx"
+					],
+					"path": [
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "dapi"
+						},
+						{
+							"key": "s",
+							"value": "post"
+						},
+						{
+							"key": "q",
+							"value": "index"
+						},
+						{
+							"key": "tags",
+							"value": "nakano_nino"
+						},
+						{
+							"key": "pid",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost /api/rule34downloader",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50112/api/rule34downloader?tags=nakano_nino",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50112",
+					"path": [
+						"api",
+						"rule34downloader"
+					],
+					"query": [
+						{
+							"key": "tags",
+							"value": "nakano_nino"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost DEBUG /api/rule34downloader",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/rule34downloader?tags=nakano_nino",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"rule34downloader"
+					],
+					"query": [
+						{
+							"key": "tags",
+							"value": "nakano_nino"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
